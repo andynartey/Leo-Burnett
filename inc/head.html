@@ -1,0 +1,16 @@
+<link rel="stylesheet" type="text/css" media="screen" href="/assets/css/reset.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/assets/css/screen.css" />
+<link rel="stylesheet" type="text/css" media="screen"  href="/assets/css/video_js.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/assets/css/colorbox.css" />
+<link rel="shortcut icon" type="image/x-icon" href="/assets/image/favicon.ico">
+<script type="text/javascript" src="/assets/js/jquery-1.4.3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/assets/js/jquery.easing.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/assets/js/carousel.js" charset="utf-8"></script>
+<script type="text/javascript">
+	var isiPad = navigator.userAgent.match(/iPad/i) != null;
+	var ua = navigator.userAgent;
+	var isiPad = /iPad/i.test(ua) || /iPhone OS 3_1_2/i.test(ua) || /iPhone OS 3_2_2/i.test(ua);
+	if (isiPad) {
+		document.write('<link rel="stylesheet" type="text/css" media="screen" href="/assets/css/ipad.css" />');
+	}
+</script>

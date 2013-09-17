@@ -1,0 +1,237 @@
+﻿/* default */
+body {
+	color:#333;
+	background-color:#272b32;
+	font-family: Georgia, Garamond, serif;
+	font-size:140%;
+	padding:0 0 20px;
+}
+h1, h2, h3, h4, h5 {
+	font-weight:normal;
+}
+h1 {
+	font-size:2.9em;
+	margin-bottom:12px;
+}
+h2 {
+	font-size:1.9em;
+	margin-bottom:15px;
+	margin-top:4px;
+}
+h3 {
+	font-size:1.2em;
+	margin-bottom:10px;
+}
+h4 {
+	font-size:1.2em;
+	margin-bottom:5px;
+}
+h5 {
+	font-size:1.0em;
+	margin-bottom:5px;
+}
+p {
+	margin-bottom:16px;
+	line-height:1.3em;
+}
+a,
+a:link,
+a:visited,
+a:active {
+	color:#6e7683;
+	text-decoration:none;
+}
+a:hover {
+	color:#6e7683;
+	text-decoration:underline;
+}
+ol li {
+	list-style-type:decimal;
+	list-style-position:inside;
+}
+ol ol li {
+	list-style-type:lower-alpha;
+}
+ul, ol {
+	margin:15px 0 20px;
+}
+ul ul,
+ol ol {
+	margin:0;
+}
+
+
+/* content */
+
+.wrapper,
+.footer {
+	background:#FFF url(../image/bg_site-wrapper.png) repeat-y 0 0;
+	margin:auto;
+	min-height:80%;
+	text-align:left;
+	width:960px; /* total 994px */
+	overflow:hidden;
+	padding:0 17px ;
+}
+.footer {
+	background:#272b32 url(../image/bg_site-footer.png) no-repeat 0 0;
+	text-align:center;
+	position:static;
+	overflow:visible;
+	z-index:98;
+}
+.footer img{
+	position:relative;
+	z-index:99;
+}
+.deck {
+	z-index:6;
+	margin:0;
+	position:relative;
+}
+.stack {
+	position:relative;
+	z-index:7;
+}
+/* console */
+.console {
+	position:fixed;
+	width:960px;
+	z-index:100;
+	min-height:125px;
+}
+.M7_ltd .console{
+	position:relative;
+}
+.console .banner {
+	background-color:#000;
+	text-align:center;
+}
+.console ul {
+	background:#3f444d url(../image/sprite_console.jpg) no-repeat 0 0;
+	overflow:hidden;
+	margin:0;
+	height:30px;
+	
+}
+.console ul li {
+	float:left;
+	color:#6e7683;
+	margin-top:8px;
+	border-right:solid 1px #6e7683;
+}
+.console ul li a {
+	display:block;
+	width:114px;
+	height:14px;
+	text-align:center;
+	overflow:hidden;
+	position:relative;
+}
+.console ul li a span {
+	background-image:url(../image/sprite_console.jpg);
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	display:block;
+	width:114px;
+	height:14px;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.console ul li.home a {
+	width:50px;
+}
+.console ul li.home a span {
+	background-position: 1px -31px;
+	width:50px;
+}
+.console ul li.news a span {
+	background-position: 1px -46px;
+}
+.console ul li.clients a span {
+	background-position: 1px -61px;
+}
+.console ul li.contact a span {
+	background-position: 1px -96px;
+}
+.console ul {border:none;}
+.console .popOut {
+	overflow:hidden;
+	background-color:#FFF;
+	border:none;
+	height:250px;
+}
+/* elements */
+
+.card {
+	margin:0;
+	overflow:hidden;
+}
+.copy {
+	padding:100px 120px 0;
+	height:440px; /*adjusted for padding*/
+	width:720px; /*adjusted for padding*/
+	background-color:#FFF;
+	color:#252525;
+}
+
+
+
+/* has js */
+.js .popOut,
+.js .PE_StackEvents div.stackWrapper,
+.js .stack #options {
+	display:none;
+}
+
+/* off screen */
+.hidden {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+/* carousel */
+.js .PE_Carousel {display:block;}
+.js .PE_Carousel > ol,
+.js .PE_Carousel > ul {margin:0; padding:0;}
+.js .PE_Carousel,
+.js .PE_Carousel > ul,
+.js .PE_Carousel > li,
+.js .PE_Carousel > li img { 	height:540px; width:960px;}
+.js .PE_Carousel > li h3 { }
+.js .PE_Carousel > li { list-style-type:none; position:relative; float:left;}
+.js .PE_Carousel ul > li a { font-weight:bold; color:#000; text-decoration:none;}
+.js .PE_Carousel ul > li a:hover { text-decoration:underline;}
+.js .PE_Carousel ul > li a span { display:none;}
+.js .M7_wrapper {overflow:hidden; position:relative;}
+.js .M7_nav {display:block;}
+.js .M7_nav { position:absolute; overflow:hidden; bottom:20px; right: 20px; padding:0; margin:0; border-left:solid 1px #CCC; }
+.js .M7_nav li { display:block; position:relative;list-style-type:none; float:left; border-top:solid 1px #CCC; border-right:solid 1px #CCC; border-bottom:solid 1px #CCC;}
+.js .M7_nav li a { display:block; padding: 3px 11px 3px 9px; color:#555555; text-decoration:none; font-weight:bold;}
+.js .M7_nav li a:hover,
+.js .M7_nav li a.on {background-color:#828284; color:#FFF; text-decoration:none;}
+.js .M7_nav li.M7_action a {margin-top:2px;}
+.js .M7_nav li.M7_action a {font-size:9px; padding: 3px 12px 3px; }
+.js .M7_nav li.M7_action a.large {font-size:12px; padding: 3px 12px 3px;}
+.M7_hiddenControlls *  { visibility:hidden;}
+object {
+	display:none;
+}
+/* bug fixes */
+/* .ie6 */
+.ie6 div { zoom: 1;}
+/* .ie7 */
+.ie7 a.optionTrigger {
+	overflow:hidden;
+	margin-bottom:-6px;
+}
+/* .ie8 */
+.ie8 {
+	
+}

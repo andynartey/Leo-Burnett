@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* iPad CSS Document */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.js div.wrapper {margin-left:12px;}
+}

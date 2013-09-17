@@ -1,0 +1,20 @@
+<div class="showReel PE_showReel">
+    <ul class="showReelOptions PE_showReelOptions">
+        <li><img src="/assets/image/shelter/house-of-cards/03-video-still.jpg" alt="Shelter: House of Cards" /></li>
+        <li class="videoOptions">
+            <ul>
+                <li class="showReelOverlay">
+                    <a href="#shelterVideoContainer03" class="playVideo PE_playVideo">Play Video</a>
+                    <p><span>Shelter</span> Pack of Cards (2:30)</p>
+                </li>
+				                                        <li class="emailBtn"><a class="" href="mailto:&subject=Leo Burnett Shelter Case Study&body=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/shelter/">Email</a></li>
+                                        <li class="twitterBtn"><a class="PE_newWindow" href="http://twitter.com/?status=http://www.leoburnett.co.uk/shelter/">Twitter</a></li>
+                                        <li class="faceBookBtn"><a class="PE_newWindow" href="http://www.facebook.com/sharer.php?u=http://www.leoburnett.co.uk/shelter/">Facebook</a></li>
+                                        <li class="embedBtn last"><a class="PE_embed" href="#shelter-caseStudy-embed">Embed</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div id="shelterVideoContainer03" class="showReelVideo">
+        <a class="PE_loader" href="/shelter/video-03.shtml">Shelter: House of Cards</a>
+    </div>
+</div>

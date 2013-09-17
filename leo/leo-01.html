@@ -1,0 +1,44 @@
+<script type="text/javascript">
+    VideoJS.DOMReady(function(){
+    var myPlayer = VideoJS.setup('leo-video', {
+        caseId: 'leo',
+        mailAddress: 'leo@leo.com',
+        mailSubject: 'we like leo 4 email',
+        mailBody: 'BODY - we like leo 4 email',
+        twitterShareUrl: 'www.leo-4-twitter.com',
+        twitterStatus: 'we like leo 4 twitter',
+        facebookShareUrl: 'http://www.leo-4-facebook.com'
+      });
+    });
+
+</script>
+<div class="card">
+    <div class="video-js-box">
+        <video id="leo-video" class="video-js" width="960" height="540" controls="controls" preload="preload" poster="../assets/image/leo/ourReel.png">
+            <!-- use http://firefogg.org to encode your .mov to webm and ogg formats -->
+            <source src="/leo/BURTLEO.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/leo/BURTLEO.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/leo/BURTLEO.webm" type='video/webm; codecs="vp8, vorbis"'>
+            <source src="/leo/BURTLEO.ogv" type='video/ogg; codecs="theora, vorbis"'>
+            <object id="leoFlashVideo" name="leoFlashVideo" class="vjs-flash-fallback" width="960" height="540" type="application/x-shockwave-flash"
+                data="http://10.196.6.43:7000/leo/videoPlayer.swf">
+                <param name="movie" value="http://10.196.6.43:7000/leo/videoPlayer.swf" />
+                <param name="allowfullscreen" value="true" />
+                <param NAME="wmode" VALUE="transparent">
+				<param name="allowScriptAccess" value="always"/>
+                <param name="FlashVars" value="image=/assets/image/leo/imgReel.jpg&amp;url=/kelloggs/BURTdaz.mp4&amp;closeButton=1&amp;title=Daz Case Study Video&amp;emailLink=http://www.yahoo.co.uk" />
+                <img src="/assets/image/leo/imgReel.jpg" width="960" height="540" alt="Poster Image"
+                    title="No video playback capabilities." />
+            </object>
+        </video>
+        <div id="leo-video-embed" class="embed">
+            <h3>Embed Video</h3>
+            <ul>
+                <li><a href="#leo-video-embed" class="PE_close">close</a></li>
+                <li><textarea id="leo-Embed-Source"><object>leo-Video</object></textarea></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+

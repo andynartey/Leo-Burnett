@@ -1,0 +1,20 @@
+<div class="showReel PE_showReel">
+    <ul class="showReelOptions PE_showReelOptions">
+        <li><img src="/assets/image/homebase/train-station/01-video-still.jpg" alt="Homebase: The Station" /></li>
+        <li class="videoOptions">
+            <ul>
+                <li class="showReelOverlay">
+                    <a href="#homebaseVideoContainer02" class="playVideo PE_playVideo">Play Video</a>
+                    <p><span>Homebase</span> Carlisle Station (60')</p>
+                </li>
+				                                      <li class="emailBtn"><a class="" href="mailto:&subject=Leo Burnett Homebase Case Study&body=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/homebase/">Email</a></li>
+                                        <li class="twitterBtn"><a class="PE_newWindow" href="http://twitter.com/?status=http://www.leoburnett.co.uk/homebase/">Twitter</a></li>
+                                        <li class="faceBookBtn"><a class="PE_newWindow" href="http://www.facebook.com/sharer.php?u=http://www.leoburnett.co.uk/homebase/">Facebook</a></li>
+                                        <li class="embedBtn last"><a class="PE_embed" href="#homebase-caseStudy-embed">Embed</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div id="homebaseVideoContainer02" class="showReelVideo">
+        <a class="PE_loader" href="/homebase/video-02.shtml">Homebase: Carlisle Station</a>
+    </div>
+</div>

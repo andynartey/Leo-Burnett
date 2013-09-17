@@ -1,0 +1,44 @@
+<div class="stack">
+    <div class="showReel PE_showReel">
+        <ul class="showReelOptions PE_showReelOptions">
+            <li class="videoOptions">
+                <ul>
+                    <li class="showReelTitle PE_mouseInShow">
+                        <a><img src="/assets/image/dft/road-safety/07-video-still.jpg" alt="DFT Think" /></a>
+                    </li>
+                    <li class="showReelOverlay PE_mouseInHide">
+                        <h2><img src="/assets/image/dft/title-overlay.png" alt="DFT Think" /></h2>
+                        <div class="showReelActions PE_showReelActions">
+                            <h3></h3>
+                            <ul>
+                                <li class="videoPlayBtn"><a href="#dft-videoContainer" class="PE_playVideo"><span>Play The Video</span></a></li>
+                                <li class="caseOpenBtn"><a href="#dft-caseStudy" class="PE_viewCase"><span>Open Case Study</span></a></li>
+                                <li class="shareButtons">
+                                    <h4>Share this...</h4>
+                                    <ul>
+                                        <li class="emailBtn"><a class="" href="mailto:&subject=Leo Burnett Think Case Study&body=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/dft/">Email</a></li>
+                                        <li class="twitterBtn"><a class="PE_newWindow" href="http://twitter.com/?status=http://www.leoburnett.co.uk/dft/">Twitter</a></li>
+                                        <li class="faceBookBtn"><a class="PE_newWindow" href="http://www.facebook.com/sharer.php?u=http://www.leoburnett.co.uk/dft/">Facebook</a></li>
+                                        <li class="embedBtn last"><a class="PE_embed" href="#dft-caseStudy-embed">Embed</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div id="dft-videoContainer" class="showReelVideo">
+            <a class="PE_loader" href="/dft/video-01.shtml">DFT Think</a>
+        </div>
+        <div id="dft-caseStudy-embed" class="embed">
+            <ul>
+                <li><a href="#dft-caseStudy-embed" class="PE_close">close</a></li>
+                <li><p>Copy the embed code below for use on your website.</p></li><li><textarea id="dft-Embed-Source"><object id="thinkFlashVideo01" name="thinkFlashVideo01" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?dft1"><param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?dft1" /><param name="allowfullscreen" value="true" /><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always" /><param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/dft/road-safety/07-video-still.jpg&amp;url=http://www.leoburnett.co.uk/dft/DFT_EYES_1024x576.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=1&amp;title=Leo Burnett - Think! Case Study&amp;videoNameID=thinkFlashVideo01&amp;emailLink=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/dft" /></object></textarea></li>
+            </ul>
+        </div>
+    </div>
+    <div id="dft-caseStudy" class="stackWrapper">
+        <a class="PE_loader" href="/dft/cards.shtml">daz card 01</a>
+    </div>
+</div>

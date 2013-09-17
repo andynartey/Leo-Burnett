@@ -1,0 +1,102 @@
+body, h1, h2, h3, h4, ul, li, p {
+    margin: 0;padding:0;
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: georgia;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+#navigation h1 {
+    display: none;
+}
+
+#navigation ul {
+    margin: 100px 0;
+    list-style: none;
+    color: #ffffff;
+}
+
+#navigation li {
+    font-size: 18px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 924px;
+}
+
+div#navigation {
+    width: 150px;
+    float:left;
+    border-right: 1px solid #999999;
+    height: 700px;
+}
+
+div#content {
+    width: 770px;
+    float:left;
+    clear:right;
+    min-height: 520px;
+}
+
+div#content h2 {
+    margin: 30px 10px 0;
+    font-size: 16px;
+}
+
+div#content img {
+    width: 290px;
+    margin-left: 31%;
+}
+
+div#videoWrapper {
+    width: 760px;
+    height: 520px;
+    margin: 0 auto;
+}
+
+div.video {
+    width: 640px;
+    height: 420px;
+   /* border: 1px solid #999999;*/
+    margin: 0 auto;
+}
+
+div.logo p {
+    text-indent: -9999px;  
+    background: url("../../../assets/image/footer-bar.jpg") no-repeat -450px -10px; 
+    width: 110px;
+    height: 70px;
+    margin: 0 302px;
+}
+
+div.footer {
+    border-top: 1px solid #999999;
+    height: 65px;  
+    clear:left;
+}
+div.footer p { 
+    padding: 8px;
+    font-size: 12px;
+}

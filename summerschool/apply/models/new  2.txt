@@ -1,0 +1,55 @@
+Feature: ViewApplicants
+	View all the applicants
+
+@mytag
+Scenario: View all unread applicants
+	Given I have logged in
+	When I click view unread
+	Then I should be shown the all the applicants
+	
+Scenario: View planner unread applicants
+	Given I have logged in
+	When I click view Planners
+	Then I should be shown the all the planners
+	
+Scenario: View handlers unread applicants
+	Given I have logged in
+	When I click view unread handlers
+	Then I should be shown the all the handlers
+	
+	
+Scenario: View handlers yes applicants
+	Given I have logged in
+	When I click view yes handlers
+	Then I should be shown the all the yes handlers
+	
+	
+Scenario: View handlers no applicants
+	Given I have logged in
+	When I click view no handlers
+	Then I should be shown the all the no handlers
+	
+	
+Scenario: View handlers maybe applicants
+	Given I have logged in
+	When I click view maybe handlers
+	Then I should be shown the all the maybe handlers
+	
+
+Scenario: View planners yes applicants
+	Given I have logged in
+	When I click view yes planners
+	Then I should be shown the all the yes planners
+	
+	
+Scenario: View planners no applicants
+	Given I have logged in
+	When I click view no planners
+	Then I should be shown the all the no planners
+	
+	
+Scenario: View planners maybe applicants
+	Given I have logged in
+	When I click view maybe planners
+	Then I should be shown the all the maybe planners
+	

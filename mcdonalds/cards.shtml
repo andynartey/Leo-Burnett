@@ -1,0 +1,10 @@
+    <!--#include virtual="/mcdonalds/card-01.shtml" -->
+	<!--#include virtual="/mcdonalds/videoLoader-05.shtml" -->
+    <!--#include virtual="/mcdonalds/videoLoader-02.shtml" -->
+    <!--include virtual="/mcdonalds/card-02.shtml" -->
+    <!--include virtual="/mcdonalds/videoLoader-03.shtml" -->
+    <!--include virtual="/mcdonalds/card-03.shtml" -->
+    <!--include virtual="/mcdonalds/image-01.shtml" -->
+    <!--#include virtual="/mcdonalds/videoLoader-04.shtml" -->
+    <!--include virtual="/mcdonalds/card-04.shtml" -->
+<div class="contentFooter"><a class="PE_closeCase" href="#weather-caseStudy" title="Close stack">close</a></div>

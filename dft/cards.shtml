@@ -1,0 +1,10 @@
+<!--#include virtual="/dft/card-01.shtml" -->
+<!--#include virtual="/dft/videoLoader-02.shtml" -->
+<!--#include virtual="/dft/card-02.shtml" -->
+<!--#include virtual="/dft/videoLoader-03.shtml" -->
+<!--#include virtual="/dft/card-03.shtml" -->
+<!--#include virtual="/dft/videoLoader-04.shtml" -->
+<!--#include virtual="/dft/image-01.shtml" -->
+<!--#include virtual="/dft/image-02.shtml" -->
+<!--#include virtual="/dft/card-04.shtml" -->
+<div class="contentFooter"><a class="PE_closeCase" href="#dft-caseStudy" title="Close stack">close</a></div>

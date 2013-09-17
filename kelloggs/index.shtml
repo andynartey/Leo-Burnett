@@ -1,0 +1,22 @@
+<!--#include virtual="/inc/doctype.html" -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Leo Burnett</title>
+    <meta name="Keywords" content="Leo Burnett" />
+    <meta name="Description" content="Leo Burnett" />
+    <!--#include virtual="/inc/head.html" -->
+</head>
+<body class="persistantPage">
+    <div id="top" class="wrapper">
+        <!--#include virtual="/inc/console.html" -->
+        <div class="contentWrapper">
+            <ul class="deck">
+                <li><!--#include virtual="/kelloggs/stack_case.shtml" --></li>
+            </ul>
+        </div>
+    </div>
+    <!--#include virtual="/inc/footer.html" -->
+    <!--#include virtual="/inc/js.html" -->
+</body>
+</html>
+

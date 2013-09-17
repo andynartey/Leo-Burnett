@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+    <head>
+        <title>Leo Burnett Case Study</title>
+    
+    
+    
+        <script language="JavaScript">
+            var jsReady = false;
+            function isReady() {
+                return jsReady;
+            }
+            function pageInit() {
+                jsReady = true;
+            }
+            function thisMovie(movieName) {
+                if (navigator.appName.indexOf("Microsoft") != -1) {
+                    //window.alert("IE");
+                    return window[movieName];
+                } else {
+                    //window.alert("everything else");
+                    return document[movieName];
+                }
+            }
+            function sendToActionScript() {
+                thisMovie("leoFlashVideo").jsCall_play();
+            }
+			 function sendToActionScript_pause() {
+                thisMovie("leoFlashVideo").jsCall_pause();
+            }
+			 function asPause() {
+                alert('Pause');
+            }
+			 function asHome() {
+                alert('home');
+            }
+			 function asReturn(videoId) {
+                alert(videoId);
+            }
+        </script>
+    </head>
+
+
+    <body onLoad="pageInit();">
+        <div>
+            <object id="leoFlashVideo" name="leoFlashVideo" width="960" height="540" type="application/x-shockwave-flash" data="videoPlayer.swf">
+                <param name="movie" value="videoPlayer.swf" />
+                <param name="allowfullscreen" value="true" />
+                <param name="wmode" value="transparent">
+                <param name="allowscriptaccess" value="always" />
+                <param name="FlashVars" value="image=/assets/image/kelloggs/specialk/01-case-still.jpg&amp;url=/kelloggs/SPECIALK_HEELS_1024x576.mp4&amp;homeReturnButtonNeeded=1&amp;videoNameID=leo-video-01&amp;homeReturn=1&amp;playButtonType=1&amp;title=Daz Case Study Video&amp;emailLink=http://www.yahoo.co.uk" />
+            </object>
+        </div>
+        <input type="button" onClick="sendToActionScript();"  name="playVideo" id="playVideo"  value="Play Video"/>
+        <input type="button" onClick="sendToActionScript_pause();"  name="pauseVideo" id="pauseVideo"  value="Pause Video"/>
+    </body>
+
+</html>

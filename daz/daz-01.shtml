@@ -1,0 +1,28 @@
+<div class="card">
+    <div class="video-js-box">
+        <video id="daz-video_01" class="video-js" width="960" height="540" controls="controls" preload="none" poster="/assets/image/daz/01-video-still.jpg">
+            <!-- use http://firefogg.org to encode your .mov to webm and ogg formats -->
+            <source src="/daz/DAZ_FIRSTSNIFF_1024x576.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/daz/DAZ_FIRSTSNIFF_1024x576.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/daz/DAZ_FIRSTSNIFF_1024x576.webm" type='video/webm; codecs="vp8, vorbis"'>
+            <source src="/daz/DAZ_FIRSTSNIFF_1024x576.ogv" type='video/ogg; codecs="theora, vorbis"'>
+             <object id="dazFlashVideo" name="dazFlashVideo" width="960" height="540" type="application/x-shockwave-flash" data="/assets/swf/videoPlayer.swf">
+                <param name="movie" value="/assets/swf/videoPlayer.swf" />
+                <param name="allowfullscreen" value="true" />
+                <param name="wmode" value="transparent">
+                <param name="allowscriptaccess" value="always" />
+                <param name="FlashVars" value="image=/assets/image/daz/01-video-still.jpg&amp;url=/daz/DAZ_FIRSTSNIFF_1024x576.mp4&amp;closeButton=1&amp;title=Daz Case Study Video&amp;emailLink=http://www.yahoo.co.uk" />
+            </object>
+        </video>
+        <div id="daz-video-embed" class="embed">
+            <h3>Embed Video</h3>
+            <ul>
+                <li><a href="#daz-video-embed" class="PE_close">close</a></li>
+                <li><p>Copy the embed code below for use on your website.</p></li><li><textarea id="daz-embed-video"><object>DAZ-Video</object></textarea></li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,9 @@
+<!--#include virtual="/homebase/card-01.shtml" -->
+<!--#include virtual="/homebase/videoLoader-02.shtml" -->
+<!--#include virtual="/homebase/card-02.shtml" -->
+<!--#include virtual="/homebase/videoLoader-03.shtml" -->
+<!--include virtual="/homebase/image-01.shtml" -->
+<!--include virtual="/homebase/image-02.shtml" -->
+<!--include virtual="/homebase/card-03.shtml" -->
+<!--#include virtual="/homebase/videoLoader-04.shtml" -->
+<div class="contentFooter"><a class="PE_closeCase" href="#homebase-caseStudy" title="Close stack">close</a></div>

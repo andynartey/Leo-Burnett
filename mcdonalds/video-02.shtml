@@ -1,0 +1,27 @@
+<div class="card">
+    <div class="video-js-box">
+        <video id="mcdonalds-video-02" class="video-js" width="960" height="540" preload="none" poster="/assets/image/mcdonalds/favourites/02-video-still.jpg" style="z-index:-1" autoplay="autoplay">
+            <!-- use http://firefogg.org to encode your .mov to webm and ogg formats -->
+            <source src="/mcdonalds/MCD_JUSTPASSINGBY_1024x576.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/mcdonalds/MCD_JUSTPASSINGBY_1024x576.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/mcdonalds/MCD_JUSTPASSINGBY_1024x576.webm" type='video/webm; codecs="vp8, vorbis"'>
+            <source src="/mcdonalds/MCD_JUSTPASSINGBY_1024x576.ogv" type='video/ogg; codecs="theora, vorbis"'>
+            <object id="mcdonaldsFlashVideo02" name="mcdonaldsFlashVideo02" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayer.swf?mcdonalds2">
+                <param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayer.swf?mcdonalds2" />
+                <param name="allowfullscreen" value="true" />
+                <param name="wmode" value="transparent">
+                <param name="allowscriptaccess" value="always" />
+                <param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/mcdonalds/favourites/02-video-still.jpg&amp;url=http://www.leoburnett.co.uk/mcdonalds/MCD_JUSTPASSINGBY_1024x576.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=0&amp;title=Leo Burnett - McDonalds Case Study&amp;videoNameID=mcdonaldsFlashVideo02&amp;emailLink=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/mcdonalds" />
+            </object>
+        </video>
+        <div id="mcdonalds-video-02-embed" class="embed">
+            <ul>
+                <li><a href="#mcdonalds-video-02-embed" class="PE_close">close</a></li>
+                <li><p>Copy the embed code below for use on your website.</p></li>
+                <li><p>Copy the embed code below for use on your website.</p></li>
+                <li><textarea id="mcdonalds-embed-video"><object id="mcdonaldsFlashVideo02" name="mcdonaldsFlashVideo02" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?mcdonalds2"><param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?mcdonalds2" /><param name="allowfullscreen" value="true" /><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always" /><param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/mcdonalds/favourites/02-video-still.jpg&amp;url=http://www.leoburnett.co.uk/mcdonalds/MCD_JUSTPASSINGBY_1024x576.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=0&amp;title=Leo Burnett - McDonalds Case Study&amp;videoNameID=mcdonaldsFlashVideo02&amp;emailLink=http://www.leoburnett.co.uk/mcdonalds" /></object></textarea></li>
+            </ul>
+        </div>
+    </div>
+</div>
+	

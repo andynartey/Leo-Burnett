@@ -1,0 +1,28 @@
+<div class="card">
+    <div class="video-js-box">
+        <video id="kelloggs-video-04" class="video-js" width="960" height="540" preload="none" poster="/assets/image/kelloggs/crunchynut/02-video-still.jpg" style="z-index:-1" autoplay="autoplay">
+            <!-- use http://firefogg.org to encode your .mov to webm and ogg formats -->
+            <source src="/kelloggs/Crunchy_Nut_Clusters_beautifull_Women_60.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/kelloggs/Crunchy_Nut_Clusters_beautifull_Women_60.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/kelloggs/Crunchy_Nut_Clusters_beautifull_Women_60.webm" type='video/webm; codecs="vp8, vorbis"'>
+            <source src="/kelloggs/Crunchy_Nut_Clusters_beautifull_Women_60.ogv" type='video/ogg; codecs="theora, vorbis"'>
+            <object id="kelloggsFlashVideo04" name="kelloggsFlashVideo04" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayer.swf?kelloggs4">
+                <param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayer.swf?kelloggs4" />
+                <param name="allowfullscreen" value="true" />
+                <param name="wmode" value="transparent">
+                <param name="allowscriptaccess" value="always" />
+                <param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/kelloggs/crunchynut/02-video-still.jpg&amp;url=http://www.leoburnett.co.uk/kelloggs/Crunchy_Nut_Clusters_beautifull_Women_60.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=0&amp;title=Leo Burnett - Kellogg's Case Study&amp;videoNameID=kelloggsFlashVideo04&amp;emailLink=http://www.leoburnett.co.uk/kelloggs" />
+            </object>
+        </video>
+        <div id="kelloggs-video-embed-04" class="embed">
+            <ul>
+                <li><a href="#kelloggs-video-embed-04" class="PE_close">close</a></li>
+                <li><p>Copy the embed code below for use on your website.</p></li>
+                <li><p>Copy the embed code below for use on your website.</p></li>
+                <li><textarea id="kelloggs-embed-video-04"><object id="kelloggsFlashVideo04" name="kelloggsFlashVideo04" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?kelloggs4"><param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?kelloggs4" /><param name="allowfullscreen" value="true" /><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always" /><param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/kelloggs/specialk/06-video-still.jpg&amp;url=http://www.leoburnett.co.uk/kelloggs/Crunchy_Nut_Clusters_beautifull_Women_60.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=0&amp;title=Leo Burnett - Kellogg's Case Study&amp;videoNameID=kelloggsFlashVideo04&amp;emailLink=http://www.leoburnett.co.uk/kelloggs" /></object></textarea></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+

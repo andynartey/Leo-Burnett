@@ -1,0 +1,9 @@
+<!--#include virtual="/daz/card-01.shtml" -->
+<!--#include virtual="/daz/videoLoader-02.shtml" -->
+<!--#include virtual="/daz/card-02.shtml" -->
+<!--#include virtual="/daz/image-01.shtml" -->
+<!--#include virtual="/daz/image-02.shtml" -->
+<!--include virtual="/daz/image-03.shtml" -->
+<!--include virtual="/daz/card-03.shtml" -->
+<!--#include virtual="/daz/videoLoader-03.shtml" -->
+<div class="contentFooter lastFooter"><a class="PE_closeCase" href="#daz-caseStudy" title="Close stack">close</a></div>

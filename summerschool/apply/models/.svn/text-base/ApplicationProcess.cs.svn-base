@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Web;
+
+namespace LeoSummerSchool
+{
+    public class ApplicationProcess
+    {
+
+        public void addApplicant(Applicant applicant)
+        {
+
+            //run the add applicant stored procedure
+
+
+
+
+        }
+
+
+
+    }
+}

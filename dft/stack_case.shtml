@@ -1,0 +1,42 @@
+<div class="stack">
+    <div class="showReel PE_showReel">
+        <ul class="showReelOptions PE_showReelOptions">
+            <li class="videoOptions">
+                <ul>
+                    <li class="showReelTitle PE_mouseInShow">
+                        <a><img src="/assets/image/dft/road-safety/07-video-still.jpg" alt="DFT Think" /></a>
+                    </li>
+                    <li class="showReelOverlay">
+                        <h2><img src="/assets/image/dft/title-overlay.png" alt="DFT Think" /></h2>
+                        	<ul class="return">
+                                <li><a href="/" title=""/>Return to homepage</a></li>
+                            </ul>
+                        <div class="showReelActions PE_showReelActions">
+                            <h3></h3>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div id="dft-Video" class="showReelVideo">
+            <a class="PE_loader" href="/dft/video-02.shtml">DFT Think</a>
+        </div>
+        <div id="dft-caseStudy-embed" class="embed">
+            <ul>
+                <li><a href="#dft-caseStudy-embed" class="PE_close">Close</a></li>
+                <li><p>Copy the embed code below for use on your website.</p></li><li><textarea id="dft-Embed-Source"><object id="thinkFlashVideo01" name="thinkFlashVideo01" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?dft1"><param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?dft1" /><param name="allowfullscreen" value="true" /><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always" /><param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/dft/road-safety/07-video-still.jpg&amp;url=http://www.leoburnett.co.uk/dft/DFT_EYES_1024x576.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=1&amp;title=Leo Burnett - Think! Case Study&amp;videoNameID=thinkFlashVideo01&amp;emailLink=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/dft" /></object></textarea></li>
+            </ul>
+        </div>
+    </div>
+    <div id="dft-caseStudy" class="stackWrapper">
+			<!--#include virtual="/dft/card-01.shtml" -->
+            <!--#include virtual="/dft/videoLoader-02.shtml" -->
+            <!--#include virtual="/dft/card-02.shtml" -->
+            <!--#include virtual="/dft/videoLoader-03.shtml" -->
+            <!--#include virtual="/dft/card-03.shtml" -->
+			<!--#include virtual="/dft/videoLoader-04.shtml" -->
+            <!--#include virtual="/dft/image-01.shtml" -->
+            <!--#include virtual="/dft/image-02.shtml" -->
+            <!--#include virtual="/dft/card-04.shtml" -->
+    </div>
+</div>

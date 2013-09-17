@@ -1,0 +1,28 @@
+        <div class="card">
+            <div class="video-js-box">
+                <video id="dft-video-03" class="video-js" width="960" height="540" preload="none" poster="/assets/image/dft/road-safety/03-video-still.jpg" style="z-index:-1" autoplay="autoplay">
+                    <!-- use http://firefogg.org to encode your .mov to webm and ogg formats -->
+                    <source src="/dft/DFT_CAMERAPHONE_1024x576.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <source src="/dft/DFT_CAMERAPHONE_1024x576.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <source src="/dft/DFT_CAMERAPHONE_1024x576.webm" type='video/webm; codecs="vp8, vorbis"'>
+                    <source src="/dft/DFT_CAMERAPHONE_1024x576.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                    <object id="thinkFlashVideo03" name="thinkFlashVideo03" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayer.swf?dft3">
+                        <param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayer.swf?dft3" />
+                        <param name="allowfullscreen" value="true" />
+                        <param name="wmode" value="transparent">
+                        <param name="allowscriptaccess" value="always" />
+                        <param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/dft/road-safety/03-video-still.jpg&amp;url=http://www.leoburnett.co.uk/dft/DFT_CAMERAPHONE_1024x576.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=0&amp;title=Leo Burnett - Think! Case Study&amp;videoNameID=thinkFlashVideo03&amp;emailLink=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/dft" />
+                    </object>
+                </video>
+                <div id="dft-video-embed-03" class="embed">
+                    <h3>Embed Video</h3>
+                    <ul>
+                        <li><a href="#dft-video-embed-03" class="PE_close">close</a></li>
+                        <li><p>Copy the embed code below for use on your website.</p></li>
+                        <li><p>Copy the embed code below for use on your website.</p></li>
+                        <li><textarea id="dft-embed-video"><object id="thinkFlashVideo01" name="thinkFlashVideo01" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?dft1"><param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?dft1" /><param name="allowfullscreen" value="true" /><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always" /><param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/dft/road-safety/07-video-still.jpg&amp;url=http://www.leoburnett.co.uk/dft/DFT_EYES_1024x576.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=1&amp;title=Leo Burnett - Think! Case Study&amp;videoNameID=thinkFlashVideo01&amp;emailLink=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/dft" /></object></textarea></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+

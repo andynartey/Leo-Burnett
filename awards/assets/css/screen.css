@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:#252525;
+}
+
+
+
+#player
+{
+	position:relative;
+	left:10%;
+	margin-top:50px;
+}
+
+
+#text
+{
+	position:relative;
+	left:10%;
+	margin-top:20px;
+
+}
+
+#text p
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FFFFFF;
+	line-height:20px;
+
+}
+
+
+#text p a
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FFFFFF;
+	line-height:20px;
+
+}

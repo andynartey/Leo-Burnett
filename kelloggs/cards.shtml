@@ -1,0 +1,13 @@
+	<!--#include virtual="/kelloggs/card-01.shtml" -->
+	<!--#include virtual="/kelloggs/videoLoader-04.shtml" -->
+    <!--#include virtual="/kelloggs/card-02.shtml" -->
+	<!--#include virtual="/kelloggs/videoLoader-05.shtml" -->
+	<!--include virtual="/kelloggs/videoLoader-03.shtml" -->    
+ 	<!--#include virtual="/kelloggs/card-03.shtml" -->			
+    <!--include virtual="/kelloggs/videoLoader-02.shtml" -->
+    <!--include virtual="/kelloggs/image-01.shtml" -->
+    <!--include virtual="/kelloggs/image-02.shtml" -->
+	<!--#include virtual="/kelloggs/videoLoader-06.shtml" -->
+	<!--#include virtual="/kelloggs/card-04.shtml" -->
+<div class="contentFooter"><a class="PE_closeCase" href="#kelloggs-caseStudy">close</a></div>
+

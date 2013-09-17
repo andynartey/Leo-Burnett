@@ -1,0 +1,41 @@
+<div class="stack">
+    <div class="showReel PE_showReel">
+        <ul class="showReelOptions PE_showReelOptions">
+            <li class="videoOptions">
+                <ul>
+                    <li class="showReelTitle PE_mouseInShow">
+                        <a><img src="/assets/image/daz/03-video-still.jpg" alt="Daz" /></a>
+                    </li>
+                    <li class="showReelOverlay">
+                        <h2><img src="/assets/image/daz/title-overlay.png" alt="Daz" /></h2>
+                            <ul class="return">
+                                <li><a href="/" title=""/>Return to homepage</a></li>
+                            </ul>
+                        <div class="showReelActions PE_showReelActions">
+                            <h3>&nbsp;</h3>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div id="daz-videoContainer" class="showReelVideo">
+            	<a class="PE_loader" href="/daz/video-02.shtml">Daz</a>
+        </div>
+        <div id="daz-caseStudy-embed" class="embed">
+            <ul>
+                <li><a href="#daz-caseStudy-embed" class="PE_close">Close</a></li>
+                <li><p>Copy the embed code below for use on your website.</p></li>
+                <li><textarea id="daz-Embed-Source"><object id="dazFlashVideo01" name="dazFlashVideo" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?daz1"><param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?daz1" /><param name="allowfullscreen" value="true" /><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always" /><param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/daz/03-video-still.jpg&amp;url=http://www.leoburnett.co.uk/daz/DAZ_FIRSTSNIFF_1024x576.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=1&amp;title=Daz Case Study Video&amp;videoNameID=dazFlashVideo01&amp;emailLink=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/daz" /></object></textarea></li>
+            </ul>
+        </div>
+    </div>
+    <div id="daz-caseStudy" class="stackWrapper">
+       	<!--#include virtual="/daz/card-01.shtml" -->
+        <!--#include virtual="/daz/videoLoader-02.shtml" -->
+        <!--#include virtual="/daz/card-02.shtml" -->
+		<!--#include virtual="/daz/image-01.shtml" -->
+		<!--#include virtual="/daz/image-02.shtml" -->
+		<!--#include virtual="/daz/videoLoader-03.shtml" -->
+		
+    </div>
+</div>

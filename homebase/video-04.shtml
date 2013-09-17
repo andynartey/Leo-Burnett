@@ -1,0 +1,26 @@
+<div class="card">
+    <div class="video-js-box">
+        <video id="homebase-video-04" class="video-js" width="960" height="540" preload="none" poster="/assets/image/homebase/carpark/01-video-still.jpg" style="z-index:-1" autoplay="autoplay"> 
+            <!-- use http://firefogg.org to encode your .mov to webm and ogg formats -->
+            <source src="/homebase/BURTHMB108020_Car_Park.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/homebase/BURTHMB108020_Car_Park.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/homebase/BURTHMB108020_Car_Park.webm" type='video/webm; codecs="vp8, vorbis"'>
+            <source src="/homebase/BURTHMB108020_Car_Park.ogv" type='video/ogg; codecs="theora, vorbis"'>
+            <object id="homebaseFlashVideo04" name="homebaseFlashVideo04" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayer.swf?homebase4">
+                <param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayer.swf?homebase4"/>
+                <param name="allowfullscreen" value="true" />
+                <param name="wmode" value="transparent">
+                <param name="allowscriptaccess" value="always" />
+                <param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/homebase/carpark/01-video-still.jpg&amp;url=http://www.leoburnett.co.uk/homebase/BURTHMB108020_Car_Park.mp4&amp;homeReturn=1&amp;homeReturnButtonNeeded=1&amp;playButtonType=0&amp;title=Leo Burnett - Homebase Case Study&amp;videoNameID=homebaseFlashVideo04&amp;emailLink=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/homebase" />
+            </object>
+        </video>
+        <div id="homebase-video-embed-04" class="embed">
+            <ul>
+                <li><a href="#homebase-video-embed-04" class="PE_close">close</a></li>
+        		<li><p>Copy the embed code below for use on your website.</p></li>
+                <li><p>Copy the embed code below for use on your website.</p></li>
+        		<li><textarea id="homebase-embed-video-04"><object id="homebaseFlashVideo04" name="homebaseFlashVideo04" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?homebase4"><param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?homebase4"/><param name="allowfullscreen" value="true" /><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always" /><param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/homebase/carpark/01-video-still.jpg&amp;url=http://www.leoburnett.co.uk/homebase/BURTHMB108020_Car_Park.mp4&amp;homeReturn=1&amp;homeReturnButtonNeeded=1&amp;playButtonType=0&amp;title=Leo Burnett - Homebase Case Study&amp;videoNameID=homebaseFlashVideo04&amp;emailLink=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/homebase" /></object></textarea></li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="card">
+    <div class="video-js-box">
+        <video id="daz-video-03" class="video-js" width="960" height="540" preload="none" poster="/assets/image/daz/05-video-still.jpg" style="z-index:-1" autoplay="autoplay">
+            <!-- use http://firefogg.org to encode your .mov to webm and ogg formats -->
+            <source src="/daz/BUR_TDAZ164_030_The Club.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/daz/BUR_TDAZ164_030_The Club.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/daz/BUR_TDAZ164_030_The Club.webm" type='video/webm; codecs="vp8, vorbis"'>
+            <source src="/daz/BUR_TDAZ164_030_The Club.ogv" type='video/ogg; codecs="theora, vorbis"'>
+            <object id="dazFlashVideo03" name="dazFlashVideo" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayer.swf?daz3">
+                <param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayer.swf?daz3" />
+                <param name="allowfullscreen" value="true" />
+                <param name="wmode" value="transparent">
+                <param name="allowscriptaccess" value="always" />
+                <param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/daz/05-video-still.jpg&amp;url=/daz/BUR_TDAZ164_030_The Club.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=0&amp;title=Daz Case Study Video&amp;videoNameID=dazFlashVideo03&amp;emailLink=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/daz" />
+            </object>
+        </video>
+        <div id="daz-video-embed-03" class="embed">
+            <ul>
+                <li><a href="#daz-video-embed-03" class="PE_close">close</a></li>
+                <li><p>Copy the embed code below for use on your website.</p></li>
+                <li><p>Copy the embed code below for use on your website.</p></li>
+                <li><textarea id="daz-embed-video"><object id="dazFlashVideo03" name="dazFlashVideo" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?daz3"><param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?daz3" /><param name="allowfullscreen" value="true" /><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always" /><param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/daz/05-video-still.jpg&amp;url=/daz/BUR_TDAZ164_030_The Club.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=0&amp;title=Daz Case Study Video&amp;videoNameID=dazFlashVideo03&amp;emailLink=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/daz" /></object></textarea></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+

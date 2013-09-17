@@ -1,0 +1,9 @@
+  		<!--#include virtual="/shelter/card-01.shtml" -->
+        <!--#include virtual="/shelter/videoLoader-02.shtml" -->
+        <!--#include virtual="/shelter/card-02.shtml" -->
+        <!--#include virtual="/shelter/videoLoader-03.shtml" -->
+        <!--#include virtual="/shelter/card-03.shtml" -->
+        <!--#include virtual="/shelter/image-01.shtml" -->
+        <!--#include virtual="/shelter/image-02.shtml" -->
+        <!--include virtual="/shelter/card-04.shtml" -->
+<div class="contentFooter"><a class="PE_closeCase" href="#shelter-caseStudy" title="Close stack">close</a></div>

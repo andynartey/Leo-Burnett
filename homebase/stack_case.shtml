@@ -1,0 +1,40 @@
+<div class="stack">
+    <div class="showReel PE_showReel">
+        <ul class="showReelOptions PE_showReelOptions">
+            <li class="videoOptions">
+                <ul>
+                    <li class="showReelTitle PE_mouseInShow">
+                        <a><img src="/assets/image/homebase/train-station/01-case-still.jpg" alt="Homebase" /></a>
+                    </li>
+                    <li class="showReelOverlay">
+                        <h2><img src="/assets/image/homebase/train-station/title-overlay.png" alt="Homebase" /></h2>
+                        	<ul class="return">
+                                <li><a href="/" title=""/>Return to homepage</a></li>
+                            </ul>
+                        <div class="showReelActions PE_showReelActions">
+                            <h3></h3>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div id="homebase-videoContainer" class="showReelVideo">
+        	<a class="PE_loader" href="/homebase/video-02.shtml">Homebase</a>
+        </div>
+        <div id="homebase-caseStudy-embed" class="embed">
+            <ul>
+                <li><a href="#homebase-caseStudy-embed" class="PE_close">close</a></li>
+                <li><p>Copy the embed code below for use on your website.</p></li>
+                <li><textarea id="homebase-Embed-Source"><object id="homebaseFlashVideo01" name="homebaseFlashVideo" width="960" height="540" type="application/x-shockwave-flash" data="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?homebase1"><param name="movie" value="http://www.leoburnett.co.uk/assets/swf/videoPlayerEmbed.swf?homebase1" /><param name="allowfullscreen" value="true" /><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always" /><param name="FlashVars" value="image=http://www.leoburnett.co.uk/assets/image/homebase/train-station/01-case-still.jpg&amp;url=http://www.leoburnett.co.uk/homebase/HOMEBASE_CARLISLE_1024x576.mp4&amp;homeReturnButtonNeeded=1&amp;homeReturn=1&amp;playButtonType=1&amp;title=Leo Burnett - Homebase Case Study&amp;videoNameID=homebaseFlashVideo01&amp;emailLink=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/homebase" /></object></textarea></li>
+            </ul>
+        </div>
+    </div>
+    <div id="homebase-caseStudy" class="stackWrapper">
+		<!--#include virtual="/homebase/card-01.shtml" -->
+        <!--#include virtual="/homebase/videoLoader-02.shtml" -->
+        <!--#include virtual="/homebase/card-02.shtml" -->
+		<!--#include virtual="/homebase/videoLoader-03.shtml" -->
+		<!--#include virtual="/homebase/videoLoader-04.shtml" -->
+        
+    </div>
+</div>

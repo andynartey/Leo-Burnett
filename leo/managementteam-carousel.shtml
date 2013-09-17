@@ -1,0 +1,114 @@
+<ul class="carousel managementCarousel PE_Carousel">
+     <li><!--#include virtual="leo/managementteam-01.shtml" --></li>
+    <li><!--#include virtual="leo/managementteam-02.shtml" --></li>
+    <li><!--#include virtual="leo/managementteam-03.shtml" --></li>
+    <li><!--#include virtual="leo/managementteam-04.shtml" --></li>
+	<li><!--#include virtual="leo/managementteam-05.shtml" --></li>
+	<li><!--#include virtual="leo/managementteam-06.shtml" --></li>
+	<li><!--#include virtual="leo/managementteam-07.shtml" --></li>
+</ul>
+
+<script type="text/javascript">
+    var randomnumber = Math.floor(Math.random() * 6);
+   
+   // alert('block1');
+   // alert(randomnumber);
+
+    var ul = $('.managementCarousel');
+
+    //alert(ul);
+    var li = ul.children('li');
+
+    li.detach();
+
+  /*  var images = new Array();
+
+    for (var i = 0; i < li.length; i++) {
+        images[i] = li[i];
+    }*/
+
+    switch (randomnumber) {
+
+        case 0:
+
+            ul.append(li[0]);
+            ul.append(li[3]);
+            ul.append(li[2]);
+            ul.append(li[4]);
+            ul.append(li[5]);
+            ul.append(li[1]);
+            ul.append(li[6]);
+            break;
+
+        case 1:
+            ul.append(li[1]);
+            ul.append(li[3]);
+            ul.append(li[2]);
+            ul.append(li[5]);
+            ul.append(li[0]);
+            ul.append(li[4]);
+            ul.append(li[6]);
+            break;
+
+        case 2:
+            ul.append(li[2]);
+            ul.append(li[3]);
+            ul.append(li[0]);
+            ul.append(li[4]);
+            ul.append(li[1]);
+            ul.append(li[5]);
+            ul.append(li[6]);
+           
+          
+            break;
+        case 3:
+            ul.append(li[3]);
+            ul.append(li[2]);
+            ul.append(li[0]);
+            ul.append(li[5]);
+            ul.append(li[1]);
+            ul.append(li[4]);
+            ul.append(li[6]);
+            break;
+
+        case 4:
+            ul.append(li[4]);
+            ul.append(li[2]);
+            ul.append(li[5]);
+            ul.append(li[1]);
+            ul.append(li[3]);
+            ul.append(li[0]);
+            ul.append(li[6]);
+            break;
+
+        case 5:
+            ul.append(li[5]);
+            ul.append(li[4]);
+            ul.append(li[3]);
+            ul.append(li[2]);
+            ul.append(li[0]);
+            ul.append(li[1]);
+            ul.append(li[6]);
+
+            break;
+
+        /*case 6:
+            ul.append(li[4]);
+            ul.append(li[5]);
+            ul.append(li[1]);
+            ul.append(li[2]);
+            ul.append(li[0]);
+            ul.append(li[3]);
+            ul.append(li[6]);
+           
+            break;*/
+
+
+    }
+
+    //.sort();
+    // ul.append(li);
+
+   // alert(randomnumber + "again");
+
+</script>

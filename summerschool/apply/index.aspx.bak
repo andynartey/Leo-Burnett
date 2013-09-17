@@ -1,0 +1,152 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="LeoSummerSchool.index" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <title>Application form: Leo Interns 2011</title>
+    <link type="text/css" rel="Stylesheet" href="assets/css/appform.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/appForm.js"></script>
+</head>
+<body>
+   <div>
+        <form id="facebookForm" runat="server" class="contactForm">
+
+            <fieldset>
+                <legend>What role are you applying for?</legend>
+                <p>Please indicate whether you are applying to be an:</p>
+                <ul>
+                    <li><asp:RadioButtonList ID="PositionRadioList" name="PositionRadioList" runat="server" 
+                    RepeatDirection="Horizontal" tabindex="12">
+                    <asp:ListItem Value="1" >Account Handler</asp:ListItem>
+                    <asp:ListItem Value="2" >Account Planner</asp:ListItem>
+                    </asp:RadioButtonList>
+                    </li>
+                <asp:Label class="error" runat="server">Which account are you applying for?</asp:Label>
+                </ul>
+            </fieldset>
+        
+            <fieldset class="inputFieldwidth">
+                <ul>
+                <legend>Personal details</legend>
+                <li>
+                    <label for="FirstNameTxtBox">Firstname</label>
+                    <asp:TextBox ID="FirstNameTxtBox" name="FirstNameTxtBox" runat="server" tabindex="13" ></asp:TextBox>
+                    <asp:Label class="error" runat="server">Please tell us your Firstname</asp:Label>
+                </li>
+                <li>
+                    <label for="LastNameTextbox">Surname</label>
+                    <asp:TextBox ID="LastNameTextbox" name="LastNameTextbox" runat="server" tabindex="14" ></asp:TextBox>
+                    <asp:Label class="error" runat="server">Please tell us your Surname</asp:Label>
+                </li>
+                <li>
+                    <label for="AddressTxtBox1">Address</label>
+                    <asp:TextBox ID="AddressTxtBox1" name="AddressTxtBox1" runat="server" tabindex="15"></asp:TextBox>
+                    <asp:Label class="error" runat="server">Please tell us the first line of your address</asp:Label>
+                </li>
+                <li>
+                    <asp:TextBox ID="AddressTxtBox2" runat="server" tabindex="16"></asp:TextBox>
+                </li>
+                <li>
+                    <label for="CountyTxtBox">County</label>
+                    <asp:TextBox ID="CountyTxtBox" name="CountyTxtBox" runat="server" tabindex="17"></asp:TextBox>
+                    <asp:Label class="error" runat="server">Please tell us your county</asp:Label>
+                </li>
+                <li>
+                    <label for="PostcodeTxtBox">Postcode</label>
+                    <asp:TextBox ID="PostcodeTxtBox" name="PostcodeTxtBox" runat="server" tabindex="18"></asp:TextBox>
+                    <br />
+                    <asp:Label class="error" runat="server">Please tell us your postcode</asp:Label>
+                </li>
+                </ul>
+            </fieldset>
+        
+            <fieldset class="inputFieldwidth">
+                <ul>
+                    <legend>Contact details</legend>
+                    <li>
+                        <label for="ContactNumberTxtBox">Contact number</label>
+                        <asp:TextBox ID="ContactNumberTxtBox" name="ContactNumberTxtBox" runat="server" tabindex="19"></asp:TextBox>
+                        <asp:Label class="error" runat="server">Please provide a contact number</asp:Label>
+                    </li>
+                    <li>
+                        <label for="EmailTxtBox">Email address</label>
+                        <asp:TextBox ID="EmailTxtBox" name="EmailTxtBox" runat="server" tabindex="20" class="inputTxt"></asp:TextBox>
+                        <br />
+                        <asp:Label class="error" runat="server">Please enter your email address</asp:Label>
+                    </li>
+                </ul>
+            </fieldset>
+        
+            <fieldset>
+                <legend><acronym title="European Union">EU</acronym> Citizenship</legend>
+                <p>I am an EU Citizen</p>
+                <ul>
+                <li><asp:RadioButtonList ID="EuCitizenRadioList" runat="server" 
+                    RepeatDirection="Horizontal" tabindex="21">
+                    <asp:ListItem Selected="True" Value="true">Yes</asp:ListItem>
+                    <asp:ListItem Value="false">No</asp:ListItem>
+                </asp:RadioButtonList>
+                <asp:Label class="error" runat="server">Are you an EU citizen?</asp:Label>
+                </li>
+                
+                </ul>        
+                <p>If no, is a work permit required?</p>
+                <ul>
+                <li><asp:RadioButtonList ID="WorkPermitRqdRadioList" runat="server" 
+                    RepeatDirection="Horizontal" tabindex="22">
+                    <asp:ListItem Value="true">Yes</asp:ListItem>
+                    <asp:ListItem Selected="True" Value="false">No</asp:ListItem>
+                </asp:RadioButtonList>
+                <asp:Label class="error" runat="server">Do you require a work permit?</asp:Label>
+                </li>
+                </ul>
+            </fieldset>
+        
+            <fieldset>
+                <ul>
+                <legend>Simple <acronym title="Question and Answer">Q&amp;A</acronym></legend>
+                <p>Before you submit, please answer the following questions. This is your chance to shine.</p>
+                <li><label for="QuestionTxtBox1">How would you sell 2 apples and a pencil? (250 maximum words)</label>
+                <asp:TextBox ID="QuestionTxtBox1" runat="server" TextMode="multiline" rows="5" columns="65" tabindex="23" onkeyup="wordCount(this,document.facebookForm.c)" class="required"></asp:TextBox>
+                <br /><div class="count"><span><input type="text" name="c" value="0" size="5" onkeyup="wordCount(document.facebookForm.w,this)" />words entered</span></div></li>
+                <br />
+                <asp:Label class="error" runat="server">Please answer this question</asp:Label></li>
+                <li><label for="QuestionTxtBox2">Anything else we should know about you? (50 maximum words)</label>
+                <asp:TextBox ID="QuestionTxtBox2" runat="server" TextMode="multiline" rows="5" columns="65" tabindex="24" onkeyup="wordCount(this,document.facebookForm.d)" class="required"></asp:TextBox>
+                <br /><div class="count"><span><input type="text" name="d" value="0" size="5" onkeyup="wordCount(document.facebookForm.w,this)" />words entered</span></div>
+                <br />
+                <asp:Label class="error" runat="server">Please fill this in.</asp:Label></li>
+                </ul>
+            </fieldset>
+        
+            <fieldset class="WhereFoundDrpDown">
+            <legend>Where did you hear about this?</legend>
+            <p>(eg. If through a university, recruitment agency or press title, please tell us which one)</p>
+            <asp:DropDownList ID="WhereFoundDrpDown" runat="server" tabindex="25">
+                <asp:ListItem>Select</asp:ListItem>
+                <asp:ListItem>Leo Burnett Website</asp:ListItem>
+                <asp:ListItem>University Careers Service</asp:ListItem>
+                <asp:ListItem>Facebook</asp:ListItem>
+                <asp:ListItem>Ad Grads</asp:ListItem>
+                <asp:ListItem>Search Engine</asp:ListItem>
+                <asp:ListItem>Friend/Word of Mouth</asp:ListItem>
+                <asp:ListItem>Other</asp:ListItem>
+            </asp:DropDownList>
+            </fieldset>
+          
+           
+          
+            <asp:Button ID="Verfiy
+          
+           
+          
+            <asp:Button ID="VerfiyBtn" runat="server" Text="VERIFY" type="submit" 
+                class="inputButton" name="Button1" tabindex="26" 
+                onclick="VerfiyBtn_Click" />
+   
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<div class="showReel PE_showReel">
+    <ul class="showReelOptions PE_showReelOptions">
+        <li><img src="/assets/image/kelloggs/specialk/03-video-still.jpg" alt="Kelloggs: Chair" /></li>
+        <li class="videoOptions">
+            <ul>
+                <li class="showReelOverlay">
+                    <a href="#kelloggsVideoContainer03" class="playVideo PE_playVideo">Play Video</a>
+                    <p><span>Kelloggs</span>Chair (20')</p>
+                </li>
+				                                    <li class="emailBtn"><a class="" href="mailto:&subject=Leo Burnett - Kelloggs Case Study&body=Found this on the NEW Leo Burnett London website - check it out: http://www.leoburnett.co.uk/kelloggs/">Email</a></li>
+                                    <li class="faceBookBtn"><a class="PE_newWindow" href="http://www.facebook.com/sharer.php?u=http://www.leoburnett.co.uk/kelloggs/">Facebook</a></li>
+                                    <li class="twitterBtn"><a class="PE_newWindow" href="http://twitter.com/?status=http://www.leoburnett.co.uk/kelloggs/">Twitter</a></li>
+                                    <li class="embedBtn last"><a class="PE_embed" href="#kelloggs-caseStudy-embed">Embed</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div id="kelloggsVideoContainer03" class="showReelVideo">
+        <a class="PE_loader" href="/kelloggs/video-03.shtml">Chair (20')</a>
+    </div>
+</div>

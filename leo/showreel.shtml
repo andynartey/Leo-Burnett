@@ -1,0 +1,22 @@
+<div class="showReel PE_showReel">
+    <ul class="showReelOptions PE_showReelOptions">
+        <li><img src="/assets/image/leo/imgReel.jpg" alt="Leo Burnett - London" /></li>
+        <li class="videoOptions">
+            <ul>
+                <li class="showReelTitle PE_mouseInShow">
+                    <h2><a href="#"><img src="/assets/image/leo/ourReel.png" alt="Our Reel" /></a></h2>
+                </li>
+                <li class="showReelOverlay PE_mouseInHide">
+                    <a href="#leo-videoContainer" class="playVideo PE_playVideo">play video</a>
+                </li>
+				<li class="emailBtn"><a class="" href="mailto:&amp;subject=Leo%20Burnett&amp;body=Found%20this%20on%20the%20NEW%20Leo%20Burnett%20London%20website%20-%20check%20it%20out:%20http://www.leoburnett.co.uk">Email</a></li>
+                <li class="twitterBtn"><a class="PE_newWindow" href="http://twitter.com/?status=http://www.leoburnett.co.uk/">Twitter</a></li>
+                <li class="faceBookBtn"><a class="PE_newWindow" href="http://www.facebook.com/sharer.php?u=http://www.leoburnett.co.uk/">Facebook</a></li>
+                <li class="embedBtn last"><a class="PE_embed" href="#leo-video-embed">Embed</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div id="leo-videoContainer" class="showReelVideo">
+        <a class="PE_loader" href="/leo/leo-01.shtml">Leo Burnett - London</a>
+    </div>
+</div>

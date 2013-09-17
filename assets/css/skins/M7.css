@@ -1,0 +1,53 @@
+﻿/*
+VideoJS M7-Extended Skin (http://videojs.com)
+Version 2.0.0
+*/
+ul.M7_extendedControls {
+  display: none; /*Start hidden */
+  list-style: none;
+  position: absolute;
+  top:0;
+  left:0;
+  margin: 0 10px;
+  border: none;
+  height: 47px;
+  width:100%;
+  opacity: 0.55;
+  color: #fff;
+}
+ul.M7_extendedControls > li {
+	position: relative;
+	background: none;
+	border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0;
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+	list-style: none;
+	padding: 3px 5px 0;
+	text-align: center;
+	height: 25px; 
+	margin: 5px 10px 0 0;
+	width :auto;
+	float:left;
+	cursor:pointer;
+
+  /* CSS Background Gradients */
+  /* Default */ background-color: #0B151A;
+  /* Webkit  */ background: #1F3744 -webkit-gradient(linear, left top, left bottom, from(#0B151A), to(#1F3744)) left 12px;
+  /* Firefox */ background: #1F3744 -moz-linear-gradient(top,  #0B151A,  #1F3744) left 12px;
+
+  /* CSS Curved Corners */
+  border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+
+  /* CSS Shadows */
+  box-shadow: 1px 1px 2px #000; -webkit-box-shadow: 1px 1px 2px #000; -moz-box-shadow: 1px 1px 2px #000;
+}
+
+/* Control Items */
+.M7-extendedControls > li.M7_embed {
+	
+}
+.M7-extendedControls > li.M7_share {
+	
+}
+.M7-extendedControls > li.M7_close {
+	
+}

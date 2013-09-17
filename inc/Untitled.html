@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type='text/javascript' src='../assets/js/jquery-1.4.3.min.js'></script>
+
+
+<script type='text/javascript'>
+$(document).ready(function(){
+ 
+$("a").hover(
+function() {
+$("#top").stop().animate({"opacity": "0"}, "slow");
+
+
+},
+function() {
+$("#top").stop().animate({"opacity": "1"}, "slow");
+});
+ 
+});
+</script>
+
+
+
+<title>Untitled Document</title>
+
+
+<style>
+div.fadehover {
+	position: relative;
+	}
+ 
+#top{
+	position: absolute;
+	left: 0;
+	top: 0;
+    z-index: 10;
+	}
+ 
+#top2 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	}
+</style>
+
+
+</head>
+<body>
+<!--
+<div class="fadehover">
+	
+<img src="roll.jpg" alt="" class="a" />
+<img src="rollon.jpg" alt="" class="b" />
+
+
+</div>-->
+<div class="fadehover" >
+  <!--
+<img src="roll.jpg" alt="" class="a" />
+<img src="rollon.jpg" alt="" class="b" />
+
+<div id="top2" class="b" style="background-image:url(rollon.jpg)">-->
+  <div id="top" class="a" style="background-image:url('toprolloff.jpg'); width:960px; height:40px; color:#FFFFFF"><a href="#" id="link" class="a">Contact</a></div>
+  <div id="top2" class="b" style="background-image:url('toprollon.jpg');width:960px; height:40px; color:#FF0000"><a href="#" style="color:#990000" >contact</a></div>
+</div>
+</body>
+</html>

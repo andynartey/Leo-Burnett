@@ -1,0 +1,35 @@
+﻿<!--#include virtual="/inc/doctype.html" -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Leo Burnett</title>
+       <meta name="Keywords" content="leo burnett,leoburnett,leo burnetts,burnett,leo burnett london,leo burnett uk,leoburnett.co.uk,leo burnet,leoburnet,leo burnett's,leo burnett pencil,leo burnett advertising, advertising, agency, leo bernet,humankind,advertising agency,andrew edwards,marc giusti,
+paul lawson,justin tindall,giles hedger,craig denyer,sarah baumann,mcdonalds,daz,kelloggs,homebase,dft" />
+    <meta name="Description" content="Leo Burnett is one of the UK's most awarded creative agencies, with many household-name clients. Together, we produce some of the most progressive, relevant and talked-about work in the world." />
+    <!--#include virtual="/inc/head.html" -->
+</head>
+<body>
+    <div id="top" class="wrapper">
+    	<!--#include virtual="/inc/console.html" -->
+        <div class="contentWrapper">
+            <ul class="deck PE_StackEvents">
+                <li><!--#include virtual="/leo/showreel.shtml" --></li>
+                <li><!--#include virtual="/news/awards.shtml" --></li>
+                <li class="PE_loadContent"><a rel="Company news - Airlock acquisition" href="/news/airlock_acquisition.shtml"><img src="assets/image/contentLoadingCard.gif" /></a></li>  
+				<li class="PE_loadContent"><a rel="McDonalds" href="/mcdonalds/stack.shtml" ><img src="assets/image/contentLoadingCard.gif" /></a></li>
+                <li class="PE_loadContent"><a rel="Company news - Holler acquisition" href="/news/holler_acquisition.shtml"><img src="assets/image/contentLoadingCard.gif" /></a></li>
+                <li class="PE_loadContent"><a rel="Working Here" href="/leo/carousel-01.shtml"><img src="assets/image/contentLoadingCard.gif" /></a></li>
+                <li class="PE_loadContent"><a rel="Shelter" href="/shelter/stack.shtml"><img src="assets/image/contentLoadingCard.gif" /></a></li>
+                <li class="PE_loadContent"><a rel="Justin Tindall" href="/news/justin_tindall.shtml"><img src="assets/image/contentLoadingCard.gif" /></a></li>
+                <li class="PE_loadContent"><a rel="Kelloggs" href="/kelloggs/stack.shtml"><img src="/assets/image/contentLoadingCard.gif" /></a></li>
+				<li class="PE_loadContent"><a rel="Homebase" href="/homebase/stack.shtml"><img src="/assets/image/contentLoadingCard.gif" /></a></li>
+                <li class="PE_loadContent"><a rel="Company news - Combine Harvester" href="/news/combine_harvester.shtml"><img src="assets/image/contentLoadingCard.gif" /></a></li>
+                <li class="PE_loadContent"><a rel="Department for Transport" href="/dft/stack.shtml"><img src="assets/image/contentLoadingCard.gif" /></a></li>
+				<li class="PE_loadContent"><a rel="Management" href="/leo/managementteam-carousel.shtml"><img src="/assets/image/contentLoadingCard.gif" /></a></li>
+				<li class="PE_loadContent"><a rel="Daz" href="/daz/stack.shtml"><img src="/assets/image/contentLoadingCard.gif" /></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--#include virtual="/inc/footer.html" -->
+    <!--#include virtual="/inc/js.html" -->
+</body>
+</html>

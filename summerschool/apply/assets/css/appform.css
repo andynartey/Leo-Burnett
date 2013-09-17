@@ -1,0 +1,174 @@
+﻿/*Leo Burnett*/
+/*Intern Application form*/
+
+body, h1, h2, h3, h4, p, label, input, legend, fieldset {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-weight: normal;
+}
+h2, h3 {
+	clear:left; 
+    font-family: Georgia;
+    font-size: 18px;
+    font-style:normal;
+    color: black;
+    margin: 0px 0 5px 0;
+}
+h2 {
+	font-size: 20px;
+    color: #268e91;
+	margin: 5px 0 10px;
+}
+p {
+    font-size: 12px;
+    font-weight: normal;
+}
+	p.formTips {
+		line-height:20px;
+		font-size:12px;
+		border:1px solid #cccccc; 
+		background: #f2f2f2;
+		padding: 5px;
+		margin: 2px 0 10px 0;
+	}
+acronym {
+    border: 0;
+    cursor: help;
+}
+/*May need to update this when the form is on Facebook*/
+form {
+    width: 500px;
+}
+fieldset {
+    padding: 10px 10px 20px 10px;
+    border: none;
+    border-bottom: 1px solid #268e91;
+    margin: 0 0 20px 0;
+}
+label, input {
+    float: left;
+    clear: left;
+    *padding: 0 0 0 0px;
+}
+legend {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 10px 0px;
+    padding: 0;
+    text-transform: uppercase;
+}
+label {
+    margin: 4px 0;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 14px;
+    color: #268e91;
+}
+input {
+    margin: 1px 2px 2px 0;
+    font-family: Arial;
+}
+textarea {
+    float: left;
+    font-family: Arial;
+    width:440px;
+    border: 1px solid #cccccc;
+    padding: 2px;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+}
+select {
+    clear: left;
+    float: left;
+}
+#PositionRadioList label, #PositionRadioList input,
+#EuCitizenRadioList label, #EuCitizenRadioList input,
+#WorkPermitRqdRadioList label, #WorkPermitRqdRadioList input {
+    float: none;
+    clear: none;
+    margin: 15px 15px 0 0;
+}
+.inputFieldwidth input {
+    width:250px;
+    border: 1px solid #cccccc;
+    padding: 2px;
+}
+.inputFieldwidth input:focus {
+    border: 1px solid #268e91;
+    background: #fdfed0;
+}
+textarea:focus {
+    border: 1px solid #268e91;
+    background: #fdfed0;
+}
+
+#PostcodeTxtBox {
+    width:120px;
+    padding: 2px;
+}
+
+.errorMsg {
+    float:left;
+    clear:left;
+    color: Red;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0 0 0 2px;
+}
+.error
+{
+    color:#ff0000;
+    font-family: Arial;
+    font-size: 12px;
+    display:none;
+    clear:left;
+}
+.count span {
+    float:left;
+    font-size: 14px;
+}
+.count input {
+    clear: none;
+    padding: 0;
+    border: 0 none;
+    width: 25px;
+    margin: 3px 0 0 0;
+}
+.count {
+    float:left;
+    clear:left;
+}
+ul 
+{
+    list-style:none;
+    margin: 0;
+    padding:0;
+}
+li 
+{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+/*Button Styles*/
+
+.inputButton, #SubmitBtn, #ReturnBtn {
+    background: #268e91;
+    color: #ffffff;
+    padding: 5px;
+    font-weight: normal;
+    cursor: pointer;
+    margin: 10px 10px 0px 0;
+    clear: none;
+    border: 1px solid #cccccc;
+}
+.inputButton:hover, #SubmitBtn:hover, #ReturnBtn:hover,
+.inputButton:focus, #SubmitBtn:focus, #ReturnBtn:focus {
+    background: #0fa2a6;
+    font-weight: bold;
+    border: 1px solid #cccccc;
+}
